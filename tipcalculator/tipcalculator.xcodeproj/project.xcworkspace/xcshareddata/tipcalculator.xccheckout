@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B13DAF9E-7B63-436D-B251-1EFFCB2EE5A1</string>
+	<string>8D7178D5-6C5B-4D31-9002-BC5828F4DB04</string>
 	<key>IDESourceControlProjectName</key>
 	<string>tipcalculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>D51C0C56-60C1-4ADB-9E58-69F58CC4368C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS-Assignments-tipCalculator</string>
+			<string>tipcalculator</string>
 		</dict>
 	</array>
 </dict>
