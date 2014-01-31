@@ -16,6 +16,7 @@
 
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
+- (void)onSettingsButton;
 
 @end
 
@@ -36,7 +37,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self updateValues];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings" style:UIBarButtonItemStylePlain target:self action:@selector(onSettingsButton)];
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -62,5 +66,10 @@
     self.tipLabel.text = [NSString stringWithFormat : @"$%0.2f", tipAmount ];
     self.totalLabel.text = [NSString stringWithFormat: @"$%0.2f",totalAmount ];
 }
+
+- (void)onSettingsButton {
+    [self.navigationController pushViewController:[[SettingsViewController alloc] init] animated:YES];
+}
+
 
 @end
